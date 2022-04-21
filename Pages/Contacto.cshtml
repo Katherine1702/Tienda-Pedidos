@@ -1,0 +1,49 @@
+﻿@page
+@model Tienda_Pedidos.Pages.ContactoModel
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORMULARIOS</title>
+    <link real="stylesheet" type="text/ccs" href="css/stales.css" />
+    <meta charset="utf-8" />
+</head>
+<body>
+    <form>
+        <h1>Formulario de Contacto</h1>
+        <label form="Nombrecompleto">Nombre completo</label>
+        <input type="text" name="nomcompleto" size="40" placeholder="Digite nombre completo y apellidos" /> <br />
+        <label form="emailusuario">Correo Electronico</label>
+        <input type="email" name="emailusu" /> <br />
+        <label form="telefusuario">Telefono</label>
+        <input type="tel" name="telefusuario" /> <br />
+        <label>Seleccione la provincia</label>
+        <select>
+            <option></option>
+            <option>San Jose</option>
+            <option>Guanacaste</option>
+            <option>Limon</option>
+            <option>Alajuela</option>
+            <option>Puntarenas</option>
+            <option>Heredia</option>
+            <option>Cartago</option>
+            <option>Otro pais</option>
+        </select>
+        <br />
+        <label>Seleccione el genero</label><br />
+        <input type="radio" name="genero" />Femenino <br />
+        <input type="radio" name="genero" />Masculino <br />
+        <input type="radio" name="genero" />Otro <br />
+        <label>Seleccione informacion que desea recibir a su correo</label><br />
+        <input type="checkbox" name="Blib" />Biblioteca de libros <br />
+        <input type="checkbox" name="group" />Grupos de lectura online <br />
+        <input type="checkbox" name="nuevo" />Libros nuevos <br />
+        <input type="checkbox" name="intercambio" />Intercambio de libros <br />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Cancelar" />
+
+    </form>
+</body>
+</html>
